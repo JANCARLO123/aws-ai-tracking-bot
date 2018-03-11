@@ -83,6 +83,7 @@
           "values": [
             "met",
             "went to",
+            "participated in",
             "attended a meeting"
           ],
           "prompt": "What did you do?"
