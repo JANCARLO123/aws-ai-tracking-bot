@@ -518,7 +518,6 @@ Resources:
                         pre_build:
                             commands:
                                 - echo "INFO pre_build cmds"
-                                - echo "test comment for pipeline"
                                 - aws configure set region "$AWS_DEFAULT_REGION"
                                 - cd dashboard-app && make install-deps
                                 - cd LexAppBuilder && npm install
