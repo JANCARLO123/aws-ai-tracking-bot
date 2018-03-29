@@ -525,6 +525,7 @@ Resources:
                         build:
                             commands:
                                 - echo "INFO build cmds"
+                                - echo "BTY Hello"
                                 - pwd
                                 - env
                                 - node masterBuild.js --bootstrap-bucket ${ArtifactStore} --webapp-bucket-dashboard ${WebAppBucketDashboard} --botname ${CleanStackName.CleanStackNameValue} --model LexAppBuilder/model/TrackingBotModel.json --cognito-poolid ${CognitoIdentityPool} --region ${AWS::Region}
